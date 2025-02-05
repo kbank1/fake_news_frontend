@@ -34,14 +34,3 @@ if st.checkbox('I understand that the following prediction should not be taken i
     ).json()
 
     st.write(f"Based on our state-of-the-art algorithm, we predict that this article contains {list(response.values())[0].lower()} information.")
-
-# REMOVE BELOW AFTER TEST
-test_url = 'https://fakenewsdocker-973308060059.europe-west1.run.app/layers'
-
-if st.checkbox('Test that we have the right model layers'):
-
-    test_response = requests.get(
-        url=test_url,
-    ).json()
-
-    st.write(test_response)
