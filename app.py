@@ -155,6 +155,6 @@ if submit:
                 prediction = result
 
             st.markdown(
-                f'<div class="result-text">Prediction: Based on our model, we predict that this article contains {prediction} information.</div>',
+                f'<div class="result-text">Prediction: Based on our model, we predict that this article contains <u>{prediction}</u> information.</div>',
                 unsafe_allow_html=True
             )
