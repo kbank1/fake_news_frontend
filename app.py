@@ -23,11 +23,12 @@ st.markdown(
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 20px;
+        hight: 50px;
     }
     /* Welcome text styling */
     .welcome-text {
         text-align: center;
-        font-size: 24px;
+        font-size: 16px;
         color: #F2F2F2;
         margin-bottom: 0px;
     }
@@ -36,7 +37,7 @@ st.markdown(
         background-color: #2e2e30 !important;
         border: 2px solid #434345 !important;
         color: #F2F2F2 !important;
-        font-size: 24px;
+        font-size: 16px;
         border-radius: 10px !important;
         padding: 10px !important;
         width: 700px noresize !important;
@@ -48,10 +49,11 @@ st.markdown(
     .custom-container .stCheckbox {
         margin-top: 10px;
         text-align: center;
-        font-size: 24px;
+        font-size: 16px;
+        font-color: #F2F2F2;
     }
     .stCheckbox label {
-        font-size: 24px;
+        font-size: 16px;
     }
     /* Submit button styling: enlarged and centered */
     .custom-container .stButton button {
@@ -63,7 +65,7 @@ st.markdown(
     }
     /* Result text styling */
     .result-text {
-        font-size: 24px;
+        font-size: 16px;
         font-weight: bold;
         text-align: center;
         color: #F2F2F2;
